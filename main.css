@@ -146,11 +146,8 @@ body {
     color: #4760cf;
     border: 4px solid;
     text-align: center;
-    border-radius: 15px;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    padding: 0.6rem;
     border-color: #4760cf;
 }
 
@@ -258,7 +255,7 @@ body {
 .logo-edu {
     position: relative;
     margin-top: -2.8rem;
-    margin-left: 46.5rem;
+    margin-left: 45.8rem;
     width: 5%;
     height: 5%;
     border: 10px;
@@ -272,7 +269,7 @@ body {
 }
 
 .smk {
-    margin-left: 48.5rem;
+    margin-left: 48.05rem;
     padding-bottom: 1rem;
     font-size: larger;
 }
@@ -455,7 +452,7 @@ body {
     font-weight: bold;
     margin-left: 43.5rem;
     border: #4760cf;
-    color: #4760cf;
+    color: white;
     border: 4px solid;
     text-align: center;
     border-radius: 10px;
