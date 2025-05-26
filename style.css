@@ -4,33 +4,60 @@ body {
           font-family: 'Segoe UI', sans-serif;
           color: white;
           scroll-behavior: smooth;
+          scroll-padding: 100px;
       }
 
       header {
-        position: sticky;
+        position: fixed;
         top: 0;
         background-color: #7a0000;
         color: white;
-        padding-bottom: 25px;
         padding-left: 15px;
         padding-right: 20px;
         z-index: 999;
         box-shadow: 0 20px 10px #3E0202;
+        width: 100%;
       }
 
       .navbar {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        height: 65px;
+        text-align: center;
+        height: 80px;
+      }
+
+      .nav-links {
+        flex: 1;
+        text-align: center;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .nav-links ul {
+        display: flex;
+        gap: 2.5rem;
+        padding: 0;
+        margin: 0;
       }
 
       .navbar .logo {
-        max-width: 6%;
+        max-width: 50px;
+      }
+      
+      .nav-logo {
+        float: left;
+        position: relative;
+        margin-top: -7px;
+        padding-right: 35px;
+      }
+
+      .logo-btn {
+        max-width: 50px;
       }
 
       .navbar ul {
-        padding-top: 5px;
+        padding-top: 0px;
         display: flex;
         gap: 2.5rem;
         list-style: none;
@@ -58,7 +85,7 @@ body {
         background-image: url('assets/backgrounds/hero-section.png'); /* optional */
         background-size: cover;
         background-position: bottom;
-        min-height: 88vh;
+        min-height: 100vh;
       }
 
       .hero-text {
@@ -82,7 +109,7 @@ body {
 
       .hero-image {
         flex-shrink: 0;
-        width: 450px;
+        width: 350px;
         height: auto;
         border-radius: 10px;
         background: linear-gradient(to bottom, #500000, #000);
@@ -124,6 +151,10 @@ body {
         background-position: top;
         padding: 120px 40px;
         color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
       }
 
       .about-container {
@@ -200,12 +231,12 @@ body {
 
   .project-section {
     background-image: url(assets/backgrounds/Project.png);
-    background-position: top;
     background-size: cover;
     padding: 60px 40px;
     color: white;
     text-align: center;
     position: relative;
+    min-height: 100vh;
   }
 
 .tech-icons {
