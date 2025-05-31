@@ -65,9 +65,24 @@
   font-size: 1.125rem;
   color: #bbb;
 }
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+}
 </style>
 <body>
-  <header>
+<div class="desktop">
+<header>
   <nav class="navbar">
     <div class="nav-links">
       <div class="nav-logo">
@@ -208,6 +223,13 @@
     </div>
   </div>
 </footer>
+</div>
+
+<div class="mobile">
+  <section class="mobile-hero">
+    <h1>There is no mobile view yet for this website</h1>
+  </section>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
