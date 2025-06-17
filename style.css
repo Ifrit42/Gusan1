@@ -647,6 +647,7 @@ body {
 .mobile-footer {
   box-shadow: 0 -20px 20px rgb(58, 0, 0);
   background-color: #1a0000;
+  border-radius: 25px;
   color: white;
   padding: 2rem 1.5rem;
   text-align: left;
