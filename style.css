@@ -354,8 +354,10 @@ body {
     position: relative;
   }
 
-.project-img:hover {
+@media (min-width: 1024px) {
+  .project-img:hover {
   transform: scale(1.05);
+}
 }
 
 .gundam-text {
