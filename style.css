@@ -505,17 +505,17 @@ body {
 
 .profile-img {
   margin-top: 1rem;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: fill;
   margin-bottom: 1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   box-shadow: 0 0 35px rgba(255, 0, 0, 0.673);
 }
 
@@ -645,6 +645,7 @@ body {
 }
 
 .mobile-footer {
+  box-shadow: 0 -20px 20px rgb(58, 0, 0);
   background-color: #1a0000;
   color: white;
   padding: 2rem 1.5rem;
