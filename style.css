@@ -457,7 +457,7 @@ body {
 .mobile {
   display: none;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .image-box {
     max-width: 1200px;
     flex-direction: row; /* switch to horizontal layout */
