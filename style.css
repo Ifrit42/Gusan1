@@ -431,7 +431,7 @@ body {
   word-break: break-word;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .footer-content {
     flex-direction: column;
     align-items: flex-start;
@@ -439,7 +439,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .hero-content, .about-content {
     flex-direction: column;
     text-align: center;
@@ -470,7 +470,7 @@ body {
     object-fit: cover;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .desktop {
     display: none;
   }
